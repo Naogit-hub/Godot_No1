@@ -1,0 +1,14 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://dfg4ulra1mc5r"]
+
+[ext_resource type="Texture2D" uid="uid://cgcigs3r6h3f3" path="res://Assets/Sprites/kusa1-kusa2.png" id="1_wurpf"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_faicd"]
+texture = ExtResource("1_wurpf")
+0:0/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+0:3/0 = 0
+0:4/0 = 0
+
+[resource]
+sources/6 = SubResource("TileSetAtlasSource_faicd")
